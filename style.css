@@ -13,12 +13,13 @@ section.top-page {
     background: url('../images/background.jpg');
     background-size: cover;
     height: 80vh;
+    padding: 25px;
 }
 
 nav.nav {
     display: flex;
+    justify-content: space-between;
     list-style: none;
-    background-color: brown;
     width: 400px;
     margin-left: 50mm;
 
