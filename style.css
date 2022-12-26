@@ -1,3 +1,29 @@
+body {
+    margin: 0 auto;
+}
+
+header.header {
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+}
+
+
 section.top-page {
-    background: url('../images/background.jpg')
+    background: url('../images/background.jpg');
+    background-size: cover;
+    height: 80vh;
+}
+
+nav.nav {
+    display: flex;
+    list-style: none;
+    background-color: brown;
+    width: 400px;
+    margin-left: 50mm;
+
+}
+
+nav.nav li {
+    color: aliceblue;
 }
