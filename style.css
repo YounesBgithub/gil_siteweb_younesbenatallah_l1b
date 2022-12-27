@@ -21,10 +21,14 @@ section.top-page {
     padding: 25px;
 }
 
+.landing-page {
+    padding: 20px 50px;
+}
+
 .big-title {
     color: darkcyan;
     font-size: 80px;
-    padding: 20px 50px;
+   
 }
 nav.nav {
     display: flex;
