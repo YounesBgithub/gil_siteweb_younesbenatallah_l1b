@@ -51,3 +51,8 @@ nav.nav {
 nav.nav li {
     color: aliceblue;
 }
+
+.services{
+    display: flex;
+    justify-content: space-between;
+}
