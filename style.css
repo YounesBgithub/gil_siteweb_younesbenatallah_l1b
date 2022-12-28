@@ -35,7 +35,7 @@ section.top-page {
     color: aliceblue;
     text-decoration: none;
     position: absolute;
-    bottom: 160px;
+    bottom: 260px;
     font-size: 25px
 }
 
@@ -45,12 +45,12 @@ nav.nav {
     justify-content: space-evenly;
     list-style: none;
     width: 1400px;
-    margin-left: 50mm;
+    margin-left: 475px;
     font-size: 25px;
 
 }
 
-nav.nav li a {
+nav.nav li {
     color: aliceblue;
     text-decoration: none;
 }
@@ -60,6 +60,7 @@ nav.nav li a {
     justify-content: space-evenly;
     margin: 50px;
     font-size: 40px;
+    text-decoration: none;
 
 }
 
@@ -67,6 +68,7 @@ nav.nav li a {
     display: list-item;
     font-weight: 600;
     text-align: left;
+    text-decoration: none;
 }
 
 .contact {
@@ -81,7 +83,6 @@ nav.nav li a {
 .contact::before {
     content: "";
     position: fixed;
-    background-color: crimson;
     width: 500px;
     height: 2px;
     bottom:0 ;
