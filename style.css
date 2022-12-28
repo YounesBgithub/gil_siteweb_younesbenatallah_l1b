@@ -50,8 +50,9 @@ nav.nav {
 
 }
 
-nav.nav li {
+nav.nav li a {
     color: aliceblue;
+    text-decoration: none;
 }
 
 .services{
