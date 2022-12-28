@@ -1,0 +1,69 @@
+\documentclass{my_cv}
+
+\usepackage[many]{tcolorbox}
+
+\begin{document}
+
+\textcolor{red}{\textsf{\name{Younes Benatallah}}}
+
+\begin{tcolorbox}[colframe=white,colback=red!75!green!50,arc=0pt]
+
+
+\end{tcolorbox}
+
+\begin{minipage}{0.30\textwidth}
+
+
+   \textcolor{red}{\section{profile}} 
+    Etudiant en L1 informatique a L'universiter Paris 8 .
+    \textcolor{red}{\section{centre d'intérêt}} 
+    
+    - Technologie
+    
+    - Informatique
+
+    - Audiovisuel 
+    
+    \textcolor{red}{\section{contacts}}
+    
+    \textbf{Telephone:} 06 46 04 75 82
+    
+    \textbf{Email:}younesbenatallah3@gmail.com    
+    \textbf{Address:}9 rue Normandie Niemen
+    
+\end{minipage} 
+\hspace{1cm}\vrule \hspace{1cm} %this is what draws the line between the minipages
+\begin{minipage}{0.45\textwidth}
+\vspace{1cm}
+
+    \textcolor{red}{\section{Diplome}}
+    \datedsubsection{\textbf{Baccalauréat}}{2022}
+    
+    Au lycée Dumont D'Urville a Maurepas
+    
+    \datedsubsection{\textbf{Brevet}}{2019}    
+
+    Au collège de La Clef-st-Pierre
+    
+    
+   
+    
+    \textcolor{red}{\section{experience}}
+    
+    
+   Mise en Rayon a Auchan
+    
+    
+
+    \textcolor{red}{\section{Compétence}}
+    
+    - Montage video ou photo
+   
+    - Python
+
+    - Assembler des ordinateur
+    
+    
+\end{minipage}
+
+\end{document} 
