@@ -50,9 +50,14 @@ nav.nav {
 
 }
 
-nav.nav li {
-    color: aliceblue;
+nav.nav li a {
+    color: black;
     text-decoration: none;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 30px;
+    background-color: aliceblue;
+
 }
 
 .services{
@@ -68,7 +73,7 @@ nav.nav li {
     display: list-item;
     font-weight: 600;
     text-align: left;
-    text-decoration: none;
+    text-decoration: ;
 }
 
 .contact {
@@ -87,3 +92,4 @@ nav.nav li {
     height: 2px;
     bottom:0 ;
 }
+
